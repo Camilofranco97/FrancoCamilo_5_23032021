@@ -52,7 +52,7 @@ body{
 
 
 .content-showcase{
-    width: 80%;;
+    width: 80%;
 }
 
 h1{
@@ -70,12 +70,29 @@ h1{
 
 }
 
+.products{
+
+}
+
 .product-item{
     width: 300px;
     height: 400px;
     background-color: #deccf3;
     box-sizing: border-box;
-    margin: 20px;
+    margin: auto;
+    margin-bottom: 30px;
+
+}
+
+@media (max-width: 800px){
+    .content-aside{
+        width: 100%;
+    }
+
+    .content-showcase{
+        width: 100%;
+    }
+
 }
 
 footer{
