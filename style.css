@@ -8,6 +8,7 @@ body{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap ;
+    justify-content: center;
 
 }
 
@@ -41,7 +42,7 @@ body{
 }
 
 .content{
-    padding: 50px;
+    padding: 40px;
 
 }
 
@@ -75,11 +76,11 @@ h1{
 }
 
 .product-item{
-    width: 300px;
-    height: 400px;
+    width: 250px;
+    height: 350px;
     background-color: #deccf3;
     box-sizing: border-box;
-    margin: auto;
+    margin-right: 30px;
     margin-bottom: 30px;
 
 }
