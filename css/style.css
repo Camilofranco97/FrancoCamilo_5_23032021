@@ -8,8 +8,6 @@ body{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap ;
-    justify-content: center;
-
 }
 
 .col{
@@ -54,7 +52,8 @@ body{
 
 
 .content-showcase{
-    max-width: 65%;
+    max-width: 70%;
+    margin: auto;
 }
 
 h1{
