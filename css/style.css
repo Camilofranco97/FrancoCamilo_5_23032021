@@ -43,17 +43,18 @@ body{
 
 .content{
     padding: 40px;
+    width: auto;
 
 }
 
 .content-aside{
     
-    width: 20%;
+    width: 25%;
 }
 
 
 .content-showcase{
-    width: 80%;
+    max-width: 65%;
 }
 
 h1{
@@ -76,16 +77,15 @@ h1{
 }
 
 .product-item{
-    width: 250px;
-    height: 350px;
+    width: 280px;
+    height: 380px;
     background-color: #deccf3;
     box-sizing: border-box;
-    margin-right: 30px;
-    margin-bottom: 30px;
+    margin: 15px;
 
 }
 
-@media (max-width: 800px){
+@media (max-width: 1095px){
     .content-aside{
         width: 100%;
     }
