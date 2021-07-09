@@ -80,7 +80,7 @@ h1{
     height: 380px;
     background-color: #deccf3;
     box-sizing: border-box;
-    margin: 15px;
+    margin: 12px;
 
 }
 
@@ -90,7 +90,7 @@ h1{
     }
 
     .content-showcase{
-        width: 100%;
+        max-width: 100%;
     }
 
 }
