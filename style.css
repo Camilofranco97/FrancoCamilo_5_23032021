@@ -32,11 +32,16 @@ a{
     margin: 0 auto;
 }
 
+.logoxs{
+    display: none;
+}
+
 /*header*/
 
 header{
     margin-top: 30px;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
+
 }
 
 .navigation{
@@ -152,12 +157,14 @@ h2{
     .product-card:last-child{
         display: initial;
         background-color: var(--white);
-
     }
+    
 }
 
 @media only screen and (max-width: 768px){
+
     /*header*/
+
     .navigation{
         padding: 1rem;
     }
@@ -258,4 +265,24 @@ h2{
         height: 400px;
     }
     
+}
+
+@media only screen and (max-width: 500px){
+    
+    .logoxs{
+        display: flex;
+        max-width: 300px;
+        margin: auto;
+    }
+
+    /*haeder*/
+    .img-logo{
+        display: none;
+    }
+
+    header{
+        margin: 0;
+        padding: 0;
+    }
+
 }
