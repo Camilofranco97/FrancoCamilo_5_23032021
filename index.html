@@ -1,153 +1,196 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./css/style.css">
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Orinoco</title>
 </head>
 
 <body>
-  <header>
-    <div class="header-content row">
-      <div class="logo">
-        <img src="https://user.oc-static.com/upload/2019/09/04/15675819263013_image1.png" alt="logo orinoco" class="logo-orinoco">
-      </div>
-      <h1>Meilleures achats chez Orinoco</h1>
-      <div class="navigation">
-        <nav>
-
-        </nav>
-      </div>
-      <div class="cart">
-
-      </div>
-    </div>
-  </header>
-  <section class="container col">
-    <div class="content row">
-      <div class="content-aside col">
-        <div class="aside-search">
-          <form action="" class="">
-            <input type="search" id="" class="" placeholder="" value="" name="">
-            <button type="submit" value="">Chercher</button>
-          </form>
-        </div>
-        <div class="aside-category col">
-          <h2>Catégories de produits</h2>
-          <h3></h3>
-          <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-          </ul>
-          <h3></h3>
-          <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-          </ul>
-          <h3></h3>
-          <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="content-showcase col">
-        <div class="content-filter row">
-          <p class="filter">9 résultats</p>
-        </div>
-        <div class="content-products">
-
-            <div class="products row">
-              <div class="product-item col">
-                <div class="product-image">
-
+    <header class="header">
+        <nav class="nav container">
+            <div class="navigation d-flex">
+                <div class="icon-menu">
+                    <i class="bx bx-menu"></i>
                 </div>
-                <div class="prroduct-text">
-
+                <div class="logo">
+                    <a href="#"><img src="./images/orinoco.png" alt="orinoco logo" class="img-logo"></a>
                 </div>
-              </div>
-              <div class="product-item col">
-                <div class="product-image">
-
+                <div class="header-menu">
+                    <div class="top">
+                        <span class="close">Fermer <i class="bx bx-x"></i></span>
+                    </div>
+                    <h1>Les meilleures achats chez <span>Orinoco</span></h1>
+                    <ul class="nav-list d-flex">
+                        <h3 class="small-screen">Catégorie de produits</h3>
+                        <li class="nav-item"><a href="#" class="nav-link">Peluches</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Machines</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Verres</a></li>
+                    </ul>
                 </div>
-                <div class="prroduct-text">
-
+                <div class="header-amount d-flex">
+                    <div>
+                        <span class="amount">€0,00</span>
+                        <i class="bx bx-shopping-bag"></i>
+                        <span class="quantity">(0)</span>
+                    </div>
                 </div>
-              </div>
-              <div class="product-item col">
-                <div class="product-image">
-
-                </div>
-                <div class="prroduct-text">
-
-                </div>
-              </div>
-              <div class="product-item col">
-                <div class="product-image">
-
-                </div>
-                <div class="prroduct-text">
-
-                </div>
-              </div>
-              <div class="product-item col">
-                <div class="product-image">
-
-                </div>
-                <div class="prroduct-text">
-
-                </div>
-              </div>
-              <div class="product-item col">
-                <div class="product-image">
-
-                </div>
-                <div class="prroduct-text">
-
-                </div>
-              </div>
-              <div class="product-item col">
-                <div class="product-image">
-
-                </div>
-                <div class="prroduct-text">
-
-                </div>
-              </div>
-              <div class="product-item col">
-                <div class="product-image">
-
-                </div>
-                <div class="prroduct-text">
-
-                </div>
-              </div>
-              <div class="product-item col">
-                <div class="product-image">
-
-                </div>
-                <div class="prroduct-text">
-
-                </div>
-              </div>
             </div>
+        </nav>
+    </header>
+    <main class="container">
+        <div class="all-content">
+            <div class="content-aside col">
+                <div class="aside-search">
+                    <form action="" class="">
+                        <input type="search" id="" class="box-search" placeholder="" value="" name="">
+                        <button type="submit" value="" class="btn-search">
+                            <i class='bx bx-search'></i>
+                        </button>
+                    </form>
+                </div>
+                <div class="aside-category col">
+                    <h2>Catégories de produits</h2>
+                    <h3></h3>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                    <h3></h3>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                    <h3></h3>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="products-content">
+                <div class="product-card">
+                    <div class="product-img">
 
+                    </div>
+                    <div class="product-item">
+                        <h3>Peluche bebe</h3>
+                    </div>
+                    <div class="interaction-icons">
+
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-img">
+
+                    </div>
+                    <div class="product-item">
+                        <h3>Peluche bebe</h3>
+                    </div>
+                    <div class="interaction-icons">
+
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-img">
+
+                    </div>
+                    <div class="product-item">
+                        <h3>Peluche bebe</h3>
+                    </div>
+                    <div class="interaction-icons">
+
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-img">
+
+                    </div>
+                    <div class="product-item">
+                        <h3>Peluche bebe</h3>
+                    </div>
+                    <div class="interaction-icons">
+
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-img">
+
+                    </div>
+                    <div class="product-item">
+                        <h3>Peluche bebe</h3>
+                    </div>
+                    <div class="interaction-icons">
+
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-img">
+
+                    </div>
+                    <div class="product-item">
+                        <h3>Peluche bebe</h3>
+                    </div>
+                    <div class="interaction-icons">
+
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-img">
+
+                    </div>
+                    <div class="product-item">
+                        <h3>Peluche bebe</h3>
+                    </div>
+                    <div class="interaction-icons">
+
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-img">
+
+                    </div>
+                    <div class="product-item">
+                        <h3>Peluche bebe</h3>
+                    </div>
+                    <div class="interaction-icons">
+
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-img">
+
+                    </div>
+                    <div class="product-item">
+                        <h3>Peluche bebe</h3>
+                    </div>
+                    <div class="interaction-icons">
+
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-img">
+                    </div>
+                    <div class="product-item">
+                        <h3></h3>
+                    </div>
+                    <div class="interaction-icons">
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-    <footer>
-      <div>
-        <p style="color: white;">Projet 5</p>
-      </div>
-    </footer>
-  </section>
+    </main>
+
+
+    <script type="text/javascript" src="./script.js"></script>
 </body>
 
 </html>
