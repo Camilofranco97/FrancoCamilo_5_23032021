@@ -106,7 +106,7 @@ h1{
 
 /*main*/
 
-main{
+.bgc-main{
     background-color: var(--white);
 }
 
@@ -149,6 +149,31 @@ h2{
     display: flex;
     justify-content: center;
 }
+
+/* main panier*/
+
+.cart{
+    background-color: var(--white);
+    margin-bottom: 15px;
+    padding: 15px;
+}
+
+
+/*footer*/
+
+footer {
+    background-color: var(--black);
+    height: 68px;
+    margin: 0;
+}
+
+footer p{
+    color: var(--white);
+    padding: 20px 0 20px 10px;
+    margin: 0;
+
+}
+
 @media only screen and (max-width: 1250px){
     .container{
         max-width: 1200px;
@@ -164,10 +189,6 @@ h2{
 @media only screen and (max-width: 768px){
 
     /*header*/
-
-    .navigation{
-        padding: 1rem;
-    }
 
     .header-menu{
         position: fixed;
@@ -261,10 +282,18 @@ h2{
     }
 
     .product-card{
-        width: 300px;
-        height: 400px;
+        width: 290px;
+        height: 390px;
+    }
+    .product-card:last-child{
+        display: block;
     }
     
+}
+@media only screen and (max-width: 627px){
+    .product-card:last-child{
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 500px){
